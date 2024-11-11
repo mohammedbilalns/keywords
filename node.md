@@ -1,13 +1,20 @@
 
 # Core Modules in Node(8)
-http , fs , path , url , os , events , crypto , util 
+http , fs , path , url , os , events , crypto , util
+## Path Module 
+basename , extname , parse , format , join , isAbsolute , resolve 
+## OS Module
+arch , cups, freemem , totalmem , hostname , platform , release , uptime , networkinterfase 
+## URL Module 
+hostname , pathname , searchParams.get, resolve 
 ## HTTP Module and http 
 ### Components of HTTP Request (6)
-request headers , request methods , request url , request body , cookie , queuery parameters 
+request headers , request methods , request url , request body , cookie , queuery parameters, ip 
 #### components of Request Headers(8)
 Content-Type, host , user-agent , connection(keep-alive, close), accept , DNT, Priority, 
 #### Different http methods(8)
-get, post , put , patch , delete ,head , options , trace 
+get, post , put , patch , delete ,head , options , trace
+##### Idempotencies 
 #### Getting body from buffer 
 ### Components of HTTP Response(5)
 status code , status message , response heders, response body , cookies 
@@ -22,35 +29,48 @@ readFile, writeFile , appendFile , unlink, mkdir, rmdir ,readdir , stat
 ### Streams 
 #### Different types of stream 
 #### Stream Piping 
-#### stream methods 
+#### stream methods
 createReadStream , createWriteStream
-## Buffer Module 
+### Buffer
+#### Buffer Methods 
+Buffer.alloc , Buffer.from , Buffer.concat ,   
 ## Events Module
-## DNS 
-## child_process 
-# Clustering in node 
+emit , on 
+## DNS
+dns.lookup , dns.resolve , dns.reverse , dns.gerservers , dns.setServers 
+
+## child_process
+### Fork vs spawn 
+### exec vs execFile 
 # NPM 
 ### npm vs npx 
-### package.json vs package.lock 
+### package.json vs package.lock
+package.json - author ,name , description , version , scripts , engines , dependencies , devdependencies
 #### Dependencies Dev Dependencies 
 #### NPM Scripts 
 # Event driven architecture in nodejs
-## Libuv 
-### Event loop 
+event emitter, listner and handler 
+## Libuv
+### Components of Libuv (5)
+event loop , asynchronous I/O , Thread Pool , child processes , timers 
+#### Event loop 
 #### Process.nextTick 
 #### setImmediate 
 #### I/O Pooling 
 ### thread pool 
 #### thread 
-# Express
-## server creation
-## Dynamic routing
-### Query parameters vs path parameters 
-## Middleware
-### Types of middleware
-## Router 
-## Cookies and Session
-# View engines and rendering 
-# API 
-# Security and Perfomance 
+# Clustering in node 
+## Key features 
+## Methods
+fork , isMaster , isWorker, on , workers 
+## Benefits 
+# Worker threads
+## cluster vs child process vs worker threads 
+## cluster vs worker 
+
+
+
+
+
+
 
