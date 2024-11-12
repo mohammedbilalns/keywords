@@ -9,9 +9,9 @@ arch , cups, freemem , totalmem , hostname , platform , release , uptime , netwo
 hostname , pathname , searchParams.get, resolve 
 ## HTTP Module and http 
 ### Components of HTTP Request (6)
-request headers , request methods , request url , request body , cookie , queuery parameters, ip 
+request headers , request methods , request url, ip , path and queury params  , request body , cookie 
 #### components of Request Headers(8)
-Content-Type, host , user-agent , connection(keep-alive, close), accept , DNT, Priority, 
+ host , user-agent , connection(keep-alive, close), accept , DNT,content type ,  Priority, 
 #### Different http methods(8)
 get, post , put , patch , delete ,head , options , trace
 ##### Idempotencies 
