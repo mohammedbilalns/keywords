@@ -36,13 +36,17 @@ limit , skip
 ## Operators 
 # Aggregation 
 ## Aggregation stages  
-match , group, project, sort, limit , skip  , distinct ,  bulkwrite , addtoset ,  setUnion ,  out, facet, iscapped , exists , bucket , expr 
+match , group, project, sort, limit , skip, addFields, set, out, merge , lookup , unwind, facet , bucket , bucketAuto , merge , redact  , arrayElemAt , 
+ distinct ,  bulkwrite , addtoset ,  setUnion , iscapped , exists , expr , redact
+## Aggregation operators 
+sum , avg, min , max , push , first , last ,split  
 ## conditional operators 
 in , nin , ne 
 ## logical operators 
 and or , nor 
 ## comparison operators 
 lt , gt , eq 
+
 ## Array 
 in , nin, set , unset , inc , push , pull , elemmatch , all 
 ## Regex 
