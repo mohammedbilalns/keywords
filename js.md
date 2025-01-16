@@ -31,7 +31,7 @@ falsey - null , undefined , NaN , empty string , 0
 ## Symbol 
 use cases - unique object keys , private properties 
 ## Array methods (14)
-map , reduce , filter, forEach  ,push , pop , shift , unshift ,slice , splice ,  of ,from,  indexOf , includes, join , reverse , sort, every  
+map , reduce , filter, forEach  ,push , pop , shift , unshift ,slice , splice ,  of ,from,  indexOf , includes, join , reverse , sort, every , findIndex 
 ### forEach vs Map
 ### splice vs slice 
 ### Object Methods(10)
@@ -43,6 +43,7 @@ iterable
 #### Deep and Shallow Copy 
 #### Constructor 
 ##### Constructor inheritance 
+###### instanceof 
 #### Class 
 ##### Class inheritance 
 #### Optional Chaining 
@@ -83,6 +84,8 @@ add, has , size
 ## Factory Functions 
 ## Currying 
 ### Advantages and disadvantages of currying 
+- advantages - function composition 
+- disadvantages - complexity for beginners , perfomance overhead in some case 
 ## What is memoization  
 ## What is function binding 
 ### Difference between call apply and bind 
@@ -123,4 +126,26 @@ prevent variable initialisation without declaration , disallow duplicate paramet
 
 
 
+instanceof 
+concat
+flatmap
+groupBy
+aliases 
+parallalism vs concurrency 
+short circuit evaluation
+fromEntries
+Illegal shadowing 
+get and set methods in object and
+convert object into set and set into object 
+unary binary and terinary operators
+nullish assigning operator
 
+
+
+
+
+
+## Practical Questions 
+
+- find second largest of an array using reduce 
+- sort an array using reduce 

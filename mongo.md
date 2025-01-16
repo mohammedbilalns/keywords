@@ -19,7 +19,8 @@ document store , key value store , column family stores , graph , time series , 
 ## Mongo Architecture 
 documents and collections , replica sets , sharding , config servers , mongodb drivers , aggregation frameworks , indexing , storage engines , administration tools 
 # Data Types 
-boolean, double  ,string , arrays , object , timestamp , undefined  , object id , date , regular expresssions , javascript code 
+boolean, double  ,string , arrays , object , timestamp , undefined  , object id , date , regular expresssions , javascript code
+## date vs timestamp 
 ## components of id 
 timestamp , machine identifier m process identifier , counter 
 # Crud Operations 
@@ -104,4 +105,7 @@ master-slave , master-master , peer to peer
 
 
 
-
+read and write concerncs 
+wildcard index 
+$fill
+rename field 
