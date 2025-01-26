@@ -1,5 +1,5 @@
 # Basics 
-## Keyword and identifier  // 
+## Keyword and identifier   
 reserved 
 ## Dynamic and static typing
 ## Prmitive vs non primitive (3)
@@ -31,11 +31,11 @@ falsey - null , undefined , NaN , empty string , 0
 ## Symbol 
 use cases - unique object keys , private properties 
 ## Array methods (14)
-map , reduce , filter, forEach  ,push , pop , shift , unshift ,slice , splice ,  of ,from,  indexOf , includes, join , reverse , sort, every , findIndex 
+map , reduce , filter, forEach  ,push , pop , shift , unshift ,slice , splice ,  of ,from,  indexOf , includes, join , reverse , sort, every , findIndex, Array.from() , concat 
 ### forEach vs Map
 ### splice vs slice 
 ### Object Methods(10)
-keys, values , entries, freeze , seal  , create, assign , fromEntries , getPrototypeOf , setPrototypeOf
+keys, values , entries, freeze , seal  , create, assign , fromEntries , getPrototypeOf , setPrototypeOf, instanceof 
 ### Destructuring 
 ### Spread and Rest operators
 iterable 
@@ -51,7 +51,7 @@ iterable
 ##### Prototype inheritance
 ## Additional Data Structures 
 ### Map Methods 
-set, get, has , size , looping 
+set, get, has , size , looping, flatmap  
 ### Set Methods 
 add, has, size , looping 
 ### WeakMap Methods 
@@ -126,26 +126,22 @@ prevent variable initialisation without declaration , disallow duplicate paramet
 
 
 
-instanceof 
-concat
-flatmap
-groupBy
+
+
 aliases 
 parallalism vs concurrency 
 short circuit evaluation
 fromEntries
 Illegal shadowing 
 get and set methods in object and
-convert object into set and set into object 
 unary binary and terinary operators
 nullish assigning operator
-
-
-
+isArray 
 
 
 
 ## Practical Questions 
 
 - find second largest of an array using reduce 
-- sort an array using reduce 
+- sort an array using reduce
+- convert object into set and set into object 
