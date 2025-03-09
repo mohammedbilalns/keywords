@@ -145,3 +145,4 @@ isArray
 - find second largest of an array using reduce 
 - sort an array using reduce
 - convert object into set and set into object 
+- convert array into object 

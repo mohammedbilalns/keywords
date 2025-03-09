@@ -108,4 +108,5 @@ master-slave , master-master , peer to peer
 read and write concerncs 
 wildcard index 
 $fill
-rename field 
+rename field
+positional operator 
