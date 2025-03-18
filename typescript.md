@@ -113,20 +113,54 @@ allow us to get the type of variables. After that, we can perform multiple opera
 ## instanceof 
 ## In 
 # Type assertion 
-# Union 
+# Union
+allows to declare the multiple types for variables 
+# Keyof 
+used to extract the keys of an object type as a union of string literals.
+# Maped types 
+allows to create new types by transforming properties of existing types 
+# Template literal types 
+# Generics 
+reusable components , function codes or classes that can work with different types rather than working with specific types 
+## Generic Constraints
+allows to specify limitations on the types that can be used with a type parameter 
+## Generic Interfaces 
+interfaces but can be defined with one or more type parameters 
+## Generic Classes 
+classes that can work with variated of data types 
+# Utility types 
+## Partial 
+transforms all the properties of the current type to optional
+## Required 
+Required utility type allows us to transform type in such a way that it makes all properties of the type required.
+## Pick 
+Pick utility type allows us to pick a type of properties of other types and create a new type
+## Omit 
+The Omit removes the keys from the type and creates a new type. It is the opposite of the Pick.
+## Readonly 
+ Readonly utility type to make all types read-only properties, making all properties immutable.
+## ReturnType 
+ReturnType utility type allows to set type for any variable from the function’s return type
+
+## NonNullable 
+The NonNullable utility operator removes the null and undefined values from the property type. It ensures that every variable exists with the defined value in the object.
+## Exclude<T,U> 
+Removes types from a union
+## Extract<T,U> 
+Extracts only the types that exist in both T and > 
+## Record 
+Record utility type creates an object. We need to define the object's keys using the Record utility type, and it also takes the type and defines the object key with that type of object.
+
+# Iterators and generators 
+# namespaces 
+used to logically group related code
+# Decorators 
 
 
 
 # Enums 
 named constants 
-# Generics 
-reusable components , function codes or classes that can work with different types rather than working with specific types 
-# Union 
-allows to declare the multiple types for variables 
-# Type Assertion 
-allows to change a variable from one type to another
-# Type Inference 
-allows to determine the type of variable functino or expression based on its usage or its initial value
+
 # Variable scope 
 class , local , global 
 
