@@ -64,3 +64,23 @@ library enables routing in react applications with dynamic client side navigatio
 ## Routes, Route 
 
 ## useParams
+
+
+
+
+
+
+
+
+
+
+
+
+
+component composition 
+how jsx sanitizes data in jsx 
+config driven ui 
+react vs reactdom 
+index as key ? 
+dynamic bundling 
+

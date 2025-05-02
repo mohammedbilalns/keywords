@@ -73,4 +73,8 @@ fork , isMaster , isWorker, on , workers
 
 
 
-thresholding 
+thresholding
+~ and ^ in package.json
+integrity -in package.lock
+- type of dependencies
+
