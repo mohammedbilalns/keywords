@@ -102,8 +102,14 @@ iteratively insert each element of unsorted  part to the sorted part - O(n^2) - 
 adv - better best case time complexity ,  limited memory reqirement , stable 
 
 ## Quick Sort 
-
+picks a pivot element and partition array around the pivot and place the pivot in the corrrect position - O(n^2), avgcase- O(log n )
+uneven division based on pivot leads to worst case 
+not stable 
 ## Merge Sort 
+recursively divide the input array into smaller arrays sorting them and joining back together
+avg case - O(log n)
+worst case - O(log n )
+stable 
 
 
 # Stack 

@@ -38,8 +38,7 @@ secret , resave , saveunintialised , cookie
 ## Authentication vs authorisation 
 ## Tokens (jwt)
 ### cookies vs tokens 
-state, storage , sending , security risks 
-## Cache-control 
+state, storage , sending , security risks ## Cache-control 
 max-age , no-cache , no-store , public private , immutable 
 # Sever communication in Express
 ## Setting headers 

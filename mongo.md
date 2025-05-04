@@ -6,7 +6,9 @@ predified schema , acid transactions ,vertical scalability , support for complex
 rigid schema , difficulty in horizontal scalability 
 ###  Advantages and disadvantages of noSQL 
 adv - flexible schema , scalability , support for various data structures 
-lim - weaker consistency , limited query capability 
+lim - weaker consistency , limited query capability
+# Mongodb 
+open source,  document based cros platform 
 ## Key features of Mongodb 
 document oriented , horizontal scalbility , replication,indexing aggregation , clustering 
 ## Advantages and disadvantages of mongodb 
@@ -44,12 +46,14 @@ sum , avg, min , max , push , first , last ,split
 ## conditional operators 
 in , nin , ne 
 ## logical operators 
-and or , nor 
+and, not, or , nor 
 ## comparison operators 
 lt , gt , eq 
 
 ## Array 
-in , nin, set , unset , inc , push , pull , elemmatch , all 
+- in, all , size , nin
+- set , unset 
+- inc , push , pull , addtoset, pop , elemmatch 
 ## Regex 
 # Joins in Mongo 
 lookup 
